@@ -1,27 +1,27 @@
 <template>
-    <div class="wrapper">
-      <my-header>
-      </my-header>
-      <div class="main" >
-        <my-dishes-list/>
-      </div>
+  <div class="wrapper">
+    <my-header> </my-header>
+    <div class="main">
+      <my-dishes-list />
     </div>
+  </div>
 </template>
 
 <script>
-import myDishesList from '@/components/myDishesList.vue'
-import myHeader from '@/components/myHeader.vue'
+import myDishesList from "@/components/myDishesList.vue";
+import myHeader from "@/components/myHeader.vue";
 export default {
-  name: 'App',
+  name: "App",
   components: {
-    myDishesList, myHeader},
-}
-
+    myDishesList,
+    myHeader,
+  },
+};
 </script>
 
 <style>
 .main {
-  margin-top: 20px
+  margin-top: 20px;
 }
 
 #app {
